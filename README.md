@@ -58,10 +58,20 @@ Maven
 
 Version 23.1 Changes
 ------
-- Updated to support Minecraft 1.21.10
-- Updated Paper API dependency to 1.21.4-R0.1-SNAPSHOT for compatibility
-- Maintained full backward compatibility with existing features
-- Existing 1.21 features remain unchanged (crafter blocks, wolf variants, copper chests)
+### What's New
+- **Minecraft 1.21.10 Support**: Full compatibility with Minecraft version 1.21.10
+- **Updated Paper API**: Dependency updated to 1.21.4-R0.1-SNAPSHOT for latest compatibility
+- **Removed Version Restrictions**: Community Edition version checks removed for fork flexibility
+- **Maintained Backward Compatibility**: All existing 1.21 features remain unchanged:
+  - Crafter blocks
+  - Wolf variants
+  - Copper chests
+
+### Technical Changes
+- Set `project.branch` to `stable` for production builds
+- Removed Community Edition version validation check
+- Removed patch version validation for fork compatibility
+- Updated `LATEST_VERSION` constant to 1.21.10
 
 Contributing
 ------
