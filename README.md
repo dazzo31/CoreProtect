@@ -9,6 +9,16 @@
 CoreProtect
 ===========
 
+## ⚠️ Important Notice
+**This is a community fork.** The original CoreProtect project is maintained by PlayPro:
+- Original Repository: https://github.com/PlayPro/CoreProtect
+- Official Website: https://coreprotect.net
+- Official Documentation: https://docs.coreprotect.net
+
+This fork provides Minecraft 1.21.10 support while the official version supports up to 1.21.1.
+
+---
+
 CoreProtect is a blazing fast data logging and anti-griefing tool for Minecraft servers.
 
 For a detailed description of the plugin, please visit [coreprotect.net](https://coreprotect.net).
