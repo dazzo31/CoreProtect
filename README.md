@@ -41,12 +41,12 @@ Maven
 <dependency>
     <groupId>net.coreprotect</groupId>
     <artifactId>coreprotect</artifactId>
-    <version>1.0.0.19</version>
+    <version>23.1</version>
     <scope>provided</scope>
 </dependency>
 ```
 
-Version 1.0.0.19 Changes
+Version 23.1 Changes
 ------
 - Updated to support Minecraft 1.21.10
 - Updated Paper API dependency to 1.21.4-R0.1-SNAPSHOT for compatibility
