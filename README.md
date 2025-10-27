@@ -18,7 +18,7 @@ For a detailed description of the plugin, please visit [coreprotect.net](https:/
 | CoreProtect Discord: | [discord.gg/b4DZ4jy](https://discord.gg/b4DZ4jy) |
 | CoreProtect Patreon: | [patreon.com/coreprotect](https://www.patreon.com/coreprotect) |
 | CoreProtect Documentation: | [docs.coreprotect.net](https://docs.coreprotect.net) |
-| Downloads for MC 1.14 - 1.21: | [coreprotect.net/latest](https://coreprotect.net/latest/) |
+| Downloads for MC 1.14 - 1.21.10: | [coreprotect.net/latest](https://coreprotect.net/latest/) |
 | Downloads for MC 1.8 - 1.12: | [coreprotect.net/legacy](https://coreprotect.net/legacy/) |
 
 bStats
@@ -41,10 +41,17 @@ Maven
 <dependency>
     <groupId>net.coreprotect</groupId>
     <artifactId>coreprotect</artifactId>
-    <version>23.0</version>
+    <version>1.0.0.19</version>
     <scope>provided</scope>
 </dependency>
 ```
+
+Version 1.0.0.19 Changes
+------
+- Updated to support Minecraft 1.21.10
+- Updated Paper API dependency to 1.21.4-R0.1-SNAPSHOT for compatibility
+- Maintained full backward compatibility with existing features
+- Existing 1.21 features remain unchanged (crafter blocks, wolf variants, copper chests)
 
 Contributing
 ------
