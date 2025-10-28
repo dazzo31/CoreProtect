@@ -112,7 +112,8 @@ public class VersionUtils {
     }
 
     public static boolean validDonationKey() {
-        return NetworkHandler.donationKey() != null;
+        // Fork bypasses donation key requirement
+        return false;
     }
 
     public static String getBranch() {
